@@ -3,7 +3,6 @@ const Schema = mongoose.Schema;
 
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb+srv://dbUser:dbUserPassword@cluster0-fefl4.mongodb.net/test?retryWrites=true&w=majority', {
-    useMongoClient: true
 });
 
 //new user Schema
